@@ -1,0 +1,1 @@
+This POC is done to demonstrate the geofencing capabilities for notifying bus stops before arrival.

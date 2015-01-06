@@ -38,13 +38,13 @@
 /* Begin PBXFileReference section */
 		3F9E0C6619B1D408000FFE34 /* Local.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Local.gpx; sourceTree = "<group>"; };
 		3F9E0C6719B1D440000FFE34 /* Local.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Local.gpx; path = Regions/Local.gpx; sourceTree = "<group>"; };
-		CBA9F14E12F76264005BB61E /* Geofencing_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofencing_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA9F14E12F76264005BB61E /* SMRT_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMRT_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA9F15212F76264005BB61E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBA9F15412F76264005BB61E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBA9F15612F76264005BB61E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBA9F15A12F76264005BB61E /* Geofencing_POC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geofencing_POC-Info.plist"; sourceTree = "<group>"; };
+		CBA9F15A12F76264005BB61E /* SMRT_POC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMRT_POC-Info.plist"; sourceTree = "<group>"; };
 		CBA9F15C12F76264005BB61E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBA9F15E12F76264005BB61E /* Geofencing_POC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geofencing_POC-Prefix.pch"; sourceTree = "<group>"; };
+		CBA9F15E12F76264005BB61E /* SMRT_POC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMRT_POC-Prefix.pch"; sourceTree = "<group>"; };
 		CBA9F15F12F76264005BB61E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBA9F16112F76264005BB61E /* RegionsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionsAppDelegate.h; sourceTree = "<group>"; };
 		CBA9F16212F76264005BB61E /* RegionsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionsAppDelegate.m; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		CBA9F14F12F76264005BB61E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBA9F14E12F76264005BB61E /* Geofencing_POC.app */,
+				CBA9F14E12F76264005BB61E /* SMRT_POC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 				CBBE14E812F914B70065507D /* iTunesArtwork */,
 				CBBE14E912F914B70065507D /* RemoveRegion.png */,
 				CBBE14EA12F914B70065507D /* RemoveRegion@2x.png */,
-				CBA9F15A12F76264005BB61E /* Geofencing_POC-Info.plist */,
+				CBA9F15A12F76264005BB61E /* SMRT_POC-Info.plist */,
 				CBA9F15B12F76264005BB61E /* InfoPlist.strings */,
-				CBA9F15E12F76264005BB61E /* Geofencing_POC-Prefix.pch */,
+				CBA9F15E12F76264005BB61E /* SMRT_POC-Prefix.pch */,
 				CBA9F15F12F76264005BB61E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBA9F14D12F76264005BB61E /* Geofencing_POC */ = {
+		CBA9F14D12F76264005BB61E /* SMRT_POC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBA9F16F12F76264005BB61E /* Build configuration list for PBXNativeTarget "Geofencing_POC" */;
+			buildConfigurationList = CBA9F16F12F76264005BB61E /* Build configuration list for PBXNativeTarget "SMRT_POC" */;
 			buildPhases = (
 				CBA9F14A12F76264005BB61E /* Sources */,
 				CBA9F14B12F76264005BB61E /* Frameworks */,
@@ -175,9 +175,9 @@
 			);
 			dependencies = (
 			);
-			name = Geofencing_POC;
+			name = SMRT_POC;
 			productName = Regions;
-			productReference = CBA9F14E12F76264005BB61E /* Geofencing_POC.app */;
+			productReference = CBA9F14E12F76264005BB61E /* SMRT_POC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Apple Inc.";
 			};
-			buildConfigurationList = CBA9F14812F76263005BB61E /* Build configuration list for PBXProject "Geofencing_POC" */;
+			buildConfigurationList = CBA9F14812F76263005BB61E /* Build configuration list for PBXProject "SMRT_POC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -201,7 +201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBA9F14D12F76264005BB61E /* Geofencing_POC */,
+				CBA9F14D12F76264005BB61E /* SMRT_POC */,
 			);
 		};
 /* End PBXProject section */
@@ -310,10 +310,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Regions/Geofencing_POC-Prefix.pch";
-				INFOPLIST_FILE = "Regions/Geofencing_POC-Info.plist";
+				GCC_PREFIX_HEADER = "Regions/SMRT_POC-Prefix.pch";
+				INFOPLIST_FILE = "Regions/SMRT_POC-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_NAME = Geofencing_POC;
+				PRODUCT_NAME = SMRT_POC;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -324,10 +324,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Regions/Geofencing_POC-Prefix.pch";
-				INFOPLIST_FILE = "Regions/Geofencing_POC-Info.plist";
+				GCC_PREFIX_HEADER = "Regions/SMRT_POC-Prefix.pch";
+				INFOPLIST_FILE = "Regions/SMRT_POC-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_NAME = Geofencing_POC;
+				PRODUCT_NAME = SMRT_POC;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBA9F14812F76263005BB61E /* Build configuration list for PBXProject "Geofencing_POC" */ = {
+		CBA9F14812F76263005BB61E /* Build configuration list for PBXProject "SMRT_POC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBA9F16D12F76264005BB61E /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBA9F16F12F76264005BB61E /* Build configuration list for PBXNativeTarget "Geofencing_POC" */ = {
+		CBA9F16F12F76264005BB61E /* Build configuration list for PBXNativeTarget "SMRT_POC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBA9F17012F76264005BB61E /* Debug */,

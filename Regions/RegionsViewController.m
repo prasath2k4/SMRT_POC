@@ -9,7 +9,7 @@
 
 @implementation RegionsViewController
 
-@synthesize regionsMapView, updatesTableView, updateEvents, locationManager, navigationBar;
+@synthesize regionsMapView, updatesTableView, updateEvents, navigationBar;
 
 #pragma mark - Memory management
 
@@ -17,16 +17,6 @@
     [super didReceiveMemoryWarning];
 }
 
-
-- (void)dealloc {
-	[updateEvents release];
-	self.locationManager.delegate = nil;
-	[locationManager release];
-	[regionsMapView release];
-	[updatesTableView release];
-	[navigationBar release];
-    [super dealloc];
-}
 
 #pragma mark - View lifecycle
 
@@ -72,8 +62,8 @@
 
 - (void)viewDidUnload {
 	self.updateEvents = nil;
-	self.locationManager.delegate = nil;
-	self.locationManager = nil;
+	locationManager.delegate = nil;
+	locationManager = nil;
 	self.regionsMapView = nil;
 	self.updatesTableView = nil;
 	self.navigationBar = nil;

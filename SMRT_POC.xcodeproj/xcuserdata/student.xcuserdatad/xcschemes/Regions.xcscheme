@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CBA9F14D12F76264005BB61E"
                BuildableName = "Geofencing_POC.app"
-               BlueprintName = "Geofencing_POC"
-               ReferencedContainer = "container:Geofencing_POC.xcodeproj">
+               BlueprintName = "SMRT_POC"
+               ReferencedContainer = "container:SMRT_POC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBA9F14D12F76264005BB61E"
             BuildableName = "Geofencing_POC.app"
-            BlueprintName = "Geofencing_POC"
-            ReferencedContainer = "container:Geofencing_POC.xcodeproj">
+            BlueprintName = "SMRT_POC"
+            ReferencedContainer = "container:SMRT_POC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBA9F14D12F76264005BB61E"
             BuildableName = "Geofencing_POC.app"
-            BlueprintName = "Geofencing_POC"
-            ReferencedContainer = "container:Geofencing_POC.xcodeproj">
+            BlueprintName = "SMRT_POC"
+            ReferencedContainer = "container:SMRT_POC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,8 +75,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBA9F14D12F76264005BB61E"
             BuildableName = "Geofencing_POC.app"
-            BlueprintName = "Geofencing_POC"
-            ReferencedContainer = "container:Geofencing_POC.xcodeproj">
+            BlueprintName = "SMRT_POC"
+            ReferencedContainer = "container:SMRT_POC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
